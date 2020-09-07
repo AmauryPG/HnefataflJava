@@ -1,9 +1,10 @@
 package Interface.Background;
 
+import javax.swing.*;
 import java.awt.*;
 
 public interface EtatBackground {
     String path = "src\\Ressources\\Background\\";
 
-    Graphics dessinerBackground(ContextBackground context, Graphics g);
+    JPanel dessinerBackground(ContextBackground context);
 }
